@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 class Que {
-    // write a program to check if a given 
-    // number is power of 2
 
     public int on(int a, int pos){
         return (a | (1 << pos));
