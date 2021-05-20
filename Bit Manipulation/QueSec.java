@@ -12,7 +12,7 @@ class QueSec{
         Scanner sc = new Scanner(System.in);
         QueSec ob = new QueSec();
         int a = sc.nextInt();
-
+        sc.close();
         int res = ob.rsb(a);
 
         System.out.println(Integer.toBinaryString(a));
